@@ -1,47 +1,36 @@
-📊 Sistema de Análise de Vendas em Python
+# 📈 Sistema de Análise de Vendas Mensais
 
-Este projeto consiste em um sistema eficiente para análise de vendas, permitindo consolidar dados por vendedor e por mês, além de gerar estatísticas de desempenho.
+Este projeto é um programa em Python que realiza a **análise de vendas mensais por vendedor**, utilizando registros simples de transações comerciais.
 
-O programa processa uma lista de vendas e calcula:
+O sistema processa os dados e gera **indicadores de desempenho individual e mensal**, exibindo os resultados diretamente no terminal.
 
-Total de vendas por vendedor
+---
 
-Total de vendas por mês
+## ⚙️ Funcionalidades
 
-Quantidade de vendedores com desempenho acima de um limite
+- Calcula o **total de vendas por vendedor**
+- Calcula o **total de vendas por mês**
+- Identifica a **quantidade de vendedores com faturamento acima de 500**
+- Classifica os vendedores de acordo com o desempenho:
+  - 🟥 Baixo
+  - 🟨 Médio
+  - 🟩 Alto
 
-Classificação dos vendedores em baixo, médio ou alto desempenho
+---
 
-O sistema foi desenvolvido para rodar no terminal, utilizando conceitos fundamentais da linguagem Python, com foco em lógica, agregação de dados e organização.
+## 🛠️ Tecnologias Utilizadas
 
-🎯 Objetivo do Projeto
+- Python 3  
 
-O objetivo deste projeto é praticar e consolidar conhecimentos em:
+O projeto utiliza apenas recursos nativos da linguagem.
 
-Lógica de programação
+---
 
-Estruturas de repetição (for)
+## ▶️ Como Executar o Projeto
 
-Dicionários em Python
+1. Certifique-se de ter o **Python 3** instalado em sua máquina  
+2. Faça o clone do repositório:
 
-Estruturas condicionais (if / elif / else)
+```bash
+git clone <URL_DO_REPOSITORIO>
 
-Agregação e classificação de dados
-
-Organização de código e exibição de resultados
-
-⚙️ Funcionalidades
-
-Cálculo automático do total de vendas por vendedor
-
-Cálculo do total de vendas por mês
-
-Contagem de vendedores com vendas acima de um valor específico
-
-Classificação do desempenho dos vendedores em baixo, médio ou alto
-
-Exibição de todos os resultados em um relatório organizado
-
-🛠️ Tecnologias Utilizadas
-
-Python 3.x
